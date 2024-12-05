@@ -1,54 +1,65 @@
-<header>
+<p align="center"><a href="https://viper.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/516/original/77HurxHeGIwbNfvJYzR4BTuQiNVEBlVIPdNGKYij.png?1706910392" width="400" alt="Viper Logo"></a></p>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+<p align="center"><a href="https://viper.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/515/full/viper2.png?1706910312" width="600" alt="Viper Logo"></a></p>
 
-# GitHub Pages
+## Sobre a Viper
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+Viper é um protótipo de plataforma de cassino distribuído para desenvolvedores com fins educativos, permitindo melhorias e adaptações conforme suas preferências. Esta é apenas uma base para desenvolvimento.
 
-</header>
+Alguns recursos:
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+- Autenticação com Google.
+- Sistema de Afiliados com RevShare e CPA.
+- Integração com Games Slotegrator.
+- Integração com Games Salsa.
+- Integração com Games Fivers, método Seamless
+- Sistema de Notificação.
+- Painel de Controle.
+- Gateway de Pagamento DigitoPay. Contato: 048 98814-2566
+- Customização dos Banners e Slide.
+- Painel da Fivers.
+- e outros.
 
-## Step 1: Enable GitHub Pages
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+1. Você precisa definir a URL do seu site no .env, sem a barra
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+```.env
+    APP_URL=seusiteaqui.com
+```
 
-### :keyboard: Activity: Enable GitHub Pages
+2. Você também precisa por as credenciais do seu banco de dados.
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+```.env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nomedodb
+    DB_USERNAME=root
+    DB_PASSWORD=
+```
 
-<footer>
+3. Tem uma pasta chamada sql, com um arquivo viper.sql, você precisa carregar ele no seu phpMyAdmin
+4. Colocar as chaves do DigitoPay
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+### DigitoPay
+Digitopay é o melhor serviço de gateway para o mercado de iGaming. Entre em contato com o nosso gerente e abra sua conta agora mesmo.
+[+55 48 8873-4746](https://api.whatsapp.com/send?phone=554888734746)
 
----
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+### Equipe Viper
+Não tem desenvolvedor? E gostaria de um projeto white label, onde cuidaremos de tudo para você? Acesse nosso site Viper.Casino.
+Um projeto white label, você não precisa se preocupar com nada, entregamos 100% funcionando, é só divulgar.
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+- **[Viper](https://viper.casino/)**
 
-</footer>
+
+Esta é uma versão simplificada do nosso projeto; contudo, dispomos de outras versões mais avançadas e abrangentes.
+
+
+
+
+
+
+
+
+
